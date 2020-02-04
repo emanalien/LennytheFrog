@@ -1,0 +1,32 @@
+
+21/1/20: 2
+- Built basic movement, gravity, jumping, and collisions with walls as well as support for other objects
+- Basic parent classes for almost all objects in the game
+- Added basic bush collisions and bouncing
+
+30/1/20: 2
+- Added Statemachine for Lenny to handle movement, leaping, licking, and collisions
+- added basic enemy movement and collision checking for platforms below and to the sides
+- Added collectable existance, collection, and recording through the GameManager object
+- Added the basic GameManager object, for a level to level bases, in order to record whether the player can progress to the next level
+- Added a camera object, which follows the player and controls the ViewPort 0. Can be used for cutscenes.
+
+2/2/20: 1.5
+- Improved Camera object to better track player upon death and to refollow on respawn
+- Added respawning through GameManager object and respawn object
+- Added death object for use in enemy obstacles and outside of level deaths
+- Added health and damage to player and enemy objects respectivly.
+- Updated layers to reflect game object categories.
+
+3/2/20: 2
+- Added sprites for all basic objects, with most gameobjects using said sprites at accurate sizes.
+- changed jump movement to allow air movement
+- added death bushes
+
+4/2/20: 3
+- Created room template for the pond
+- created better code for camera and viewport in obj_camera
+- started to setup lenny section reset after 3 deaths
+- started to setup room transitions - TODO: these need a lot of work. see notes in GameManager. a new object which creates fade ins and outs
+			should be created to help manage these fade ins as they don't seem to be working as it stands.
+- built a short tester level called rm_pond1
