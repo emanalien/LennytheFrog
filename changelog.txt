@@ -30,3 +30,9 @@
 - started to setup room transitions - TODO: these need a lot of work. see notes in GameManager. a new object which creates fade ins and outs
 			should be created to help manage these fade ins as they don't seem to be working as it stands.
 - built a short tester level called rm_pond1
+
+5/2/20: 2
+- worked on transitions, with fades having their own object with settings that can be change based on fade in or out.
+- fades call a event_user script at end of fade.
+- started working on remembering captured flys and destorying them when a room is entered thatyou've been in before.
+- above is unfinished, with @TODO signifiying where work needs to be done.

@@ -23,6 +23,10 @@ if (place_meeting(x + horizontal_movement, y, mCollider)) {
 	// stop anymore horizontal movement
 	horizontal_movement = 0;
 	
+	// Unsure about this: stop upwards vertical movement
+	//vertical_movement = clamp(vertical_movement, 0, 10000);
+	// @TODO: NEED TO WORK OUT A NEW WAY OF STOPPING "ROUNDING" THE CORNERS>
+	
 	// enact collision events by calling the script from the other object
 	with (otherCollider) {
 		if (HasCollisionEvents) {
@@ -42,6 +46,7 @@ if (place_meeting(x, y + vertical_movement, mCollider)) {
 		y += sign(vertical_movement);
 	}
 	vertical_movement = 0;
+	// unsure about this: stop horizontal movememnt??
 	
 	// collision events
 	with (otherCollider) {

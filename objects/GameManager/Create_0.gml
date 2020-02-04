@@ -4,6 +4,10 @@
 // to collect to advance to the next stage of the game.
 // Once all flies are collected, the next level is unlocked.
 
+#region BigManager settings
+BM = instance_find(BigManager, 0);
+#endregion
+
 #region Lenny information
 Lenny = instance_find(obj_lenny, 0);
 lenny_dead = false;
@@ -22,18 +26,16 @@ FlyArray = ds_list_create();
 Respawn = instance_find(obj_respawn, 0);
 #endregion
 
-#region create fade in
-start_opacity = 1;
+#region create fade 
+// fade in settings
+fade_in_finished = false;
+fade_out_finished = false;
+// start the level with a fade in
+//instance_create_layer(x,y,"GameManager", obj_fade);
 #endregion
 
+#region travel between rooms
+room_travel = SectionStart;
 
-
-#region room transition & restart
-next_room = false;
-#region fade out
-opacity = -5;
-start_fade = false;
-#endregion
-
-room_transition_time = 100;
+next_room_active = false;
 #endregion

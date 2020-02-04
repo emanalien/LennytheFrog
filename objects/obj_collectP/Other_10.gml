@@ -7,5 +7,5 @@
 
 // New System
 // On collection, delete record from GM array
-ds_list_delete(GM.FlyArray, ds_list_find_index(GM.FlyArray, id));
+ds_list_delete(FlyArray, ds_list_find_index(FlyArray, id));
 instance_destroy(id);

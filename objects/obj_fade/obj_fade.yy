@@ -1,48 +1,28 @@
 {
-    "id": "81199901-f733-4700-bc3f-ef0348cba7d3",
+    "id": "29676955-1e74-49bf-b4fe-a8ba4e18e3be",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GameManager",
+    "name": "obj_fade",
     "eventList": [
         {
-            "id": "63dfe162-2176-478a-b696-06c298b19188",
+            "id": "bce73a8e-fd19-4be8-8992-4f6b55bdc7fc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "81199901-f733-4700-bc3f-ef0348cba7d3"
+            "m_owner": "29676955-1e74-49bf-b4fe-a8ba4e18e3be"
         },
         {
-            "id": "92e4e355-a81a-457f-8a9d-d9eb18b2ec63",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "81199901-f733-4700-bc3f-ef0348cba7d3"
-        },
-        {
-            "id": "ee3b5510-0a5e-4ffc-8262-a85e5cdcb344",
+            "id": "c0434cc8-30cf-421f-aa02-359e4410141b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "81199901-f733-4700-bc3f-ef0348cba7d3"
-        },
-        {
-            "id": "5926938a-2032-4a2a-b454-c7fde16e588e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 20,
-            "eventtype": 7,
-            "m_owner": "81199901-f733-4700-bc3f-ef0348cba7d3"
+            "m_owner": "29676955-1e74-49bf-b4fe-a8ba4e18e3be"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "3b2fd64e-fe8e-4722-8229-c6eb0d6f82d3",
+            "id": "893037dc-8b15-4e60-b154-851f22c8fec2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -72,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "Gravity",
+            "value": "1.2",
+            "varName": "StartOpacity",
             "varType": 0
         },
         {
-            "id": "ec352de7-46f3-4f4f-b996-eca5b1c95d99",
+            "id": "af62c9cd-af40-44f0-89c0-091ed9143e3a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -86,12 +66,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
-            "varName": "TerminalV",
+            "value": "0.01",
+            "varName": "Increment",
             "varType": 0
         },
         {
-            "id": "577da5d5-ed8c-4e91-aaf4-937ec19416cc",
+            "id": "a31cfeb3-18b1-4094-bf49-3d2fb343da08",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -100,26 +80,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "FliesNeeded",
+            "value": "-1",
+            "varName": "Direction",
             "varType": 0
         },
         {
-            "id": "7f1da36c-63ac-44d1-abde-647281df68c0",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "100",
-            "varName": "RespawnTime",
-            "varType": 0
-        },
-        {
-            "id": "c14f0c0c-38cb-4c22-a80f-7effb950f4ec",
+            "id": "4d3fb091-7c1b-46e5-91f9-236b0b012231",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -129,11 +95,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "LennyLives",
+            "varName": "End",
             "varType": 0
         },
         {
-            "id": "069d5f8c-b718-4358-8124-634c353f3981",
+            "id": "4cd49559-49da-40a6-922f-4dfc0428baf9",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -142,26 +108,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "rm_pond1",
-            "varName": "SectionStart",
-            "varType": 5
-        },
-        {
-            "id": "31571b6f-e86c-43e5-92e8-b7982eda8285",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "rm_pond2",
-            "varName": "NextRoom",
-            "varType": 5
+            "value": "10",
+            "varName": "fade_finished_function",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "c7d7c490-fdc7-4160-bf4a-e657261479c1",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
