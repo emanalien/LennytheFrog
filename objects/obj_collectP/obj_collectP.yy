@@ -89,6 +89,20 @@
             "value": ".75",
             "varName": "Speed",
             "varType": 0
+        },
+        {
+            "id": "3babff49-f678-467e-adb0-d468cbdae8b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "<room><xcoord>",
+            "varName": "uniqueID",
+            "varType": 2
         }
     ],
     "solid": false,

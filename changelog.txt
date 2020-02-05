@@ -36,3 +36,9 @@
 - fades call a event_user script at end of fade.
 - started working on remembering captured flys and destorying them when a room is entered thatyou've been in before.
 - above is unfinished, with @TODO signifiying where work needs to be done.
+
+6/2/20: 1
+- succuessfully implemented system were caught flies are stored in localCaughtFlies and at the end of a level moved over to BM.CaughtFlyArray
+- this system is not fully tested, but should mean that on reentry to a existing level, flies already caught are not respawned
+- it relies on the GM checking each fly object after it's created to see it's uniqueID and seeing if it matches one in the BM.CFA.
+- num_flies is now just a int not a dynamic check, incremented by creating and deleting flies.

@@ -11,7 +11,6 @@ var cam_height = camera_get_view_height(view_camera[0]);
 // code to fade into the room needed here
 
 // temp code to check number of flies
-num_flies = ds_list_size(FlyArray);
 draw_set_color(c_black);
 draw_set_font(tempscorefont);
 draw_text(cam_x + 100, 

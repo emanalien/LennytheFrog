@@ -3,17 +3,12 @@
 collider_id = 0;
 
 #region GameManager setup
-// find the gamemanager and store this object id in it
+// setup the uniqueID of this instance, consiting of the room name and x coord
+uniqueID = room_get_name(room) + string(x);
+// find the gamemanager @TODO: Do I still need the gamemanager??
 GM = instance_find(GameManager, 0);
-FlyArray = GM.FlyArray;
+CFA = GM.BM.CaughtFlyArray;
 
-// check if the current instance is in the BM Caught Fly array
-if (ds_list_find_index(instance_find(BigManager, 0).CaughtFlyArray, id)) {
-	// @TODO: This method doesn't seem to be working.
-	instance_destroy(id);	
-} else {
-	ds_list_add(FlyArray, id);
-}
 #endregion
 
 #region position setup

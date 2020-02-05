@@ -4,9 +4,9 @@ if (room_travel = "end") {
 	game_end();	
 } else {
 	if (room_travel == NextRoom) {
-		// @TODO: This method of storing and deleting doesn't seem to be working.
-		for (i = 0; i < ds_list_size(FlyArray); i++) {
-			ds_list_add(BM.CaughtFlyArray, ds_list_find_value(FlyArray, i));
+		for (i = 0; i < ds_list_size(localCaughtFlies); i++) {
+			// foreach localcaughtfly, add it to the BM CaughtFlyArray.
+			ds_list_add(CFA, localCaughtFlies[|i]);	
 		}
 	}
 	room_goto(room_travel);	

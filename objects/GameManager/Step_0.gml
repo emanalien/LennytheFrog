@@ -1,6 +1,26 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+#region on first step event, look through all the flies and grab their unique id's
+if (first_step) {
+	first_step = false;
+	for (i = 0; i < instance_number(obj_fly); ) {
+		var fly =  instance_find(obj_fly, i);
+	
+		// debug
+		//show_debug_message(fly.uniqueID);
+		//show_debug_message(ds_list_find_index(CFA, fly.uniqueID));
+		// for each fly in the world, check if not already caught and destroy or record the id if otherwise
+		if (ds_list_find_index(CFA, fly.uniqueID) != -1) {
+			instance_destroy(fly); // destroy a fly if it is in the CAUGHTFLYARRAY
+		} else {
+			num_flies += 1;
+			i++; // only incrememnt i if we didn't delete a fly
+		}
+	}
+}
+#endregion
+
 #region tester code @TODO remove this
 if (keyboard_check_pressed(ord("H"))) {
 	instance_create_layer(x,y,"GameManager", obj_fade);

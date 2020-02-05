@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_fly",
     "eventList": [
-        
+        {
+            "id": "fa2c4284-a022-4305-bf9a-4b2fee26cbad",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "54ff3747-83ed-4968-bd2e-33903c1d6079"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

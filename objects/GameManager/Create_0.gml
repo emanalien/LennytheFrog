@@ -6,6 +6,13 @@
 
 #region BigManager settings
 BM = instance_find(BigManager, 0);
+CFA = BM.CaughtFlyArray;
+first_step = true;
+
+// temp code to show contents of CFA
+//for (i = 0; i < ds_list_size(CFA); i++) {
+	//show_debug_message(CFA[|i]);
+//}
 #endregion
 
 #region Lenny information
@@ -19,7 +26,8 @@ Camera = instance_find(obj_camera, 0);
 #endregion
 
 #region Fly Information
-FlyArray = ds_list_create();
+localCaughtFlies = ds_list_create();
+num_flies = 0;
 #endregion
 
 #region Respawner Information
