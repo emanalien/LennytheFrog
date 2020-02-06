@@ -2,7 +2,7 @@
 
 // call the collision event user 
 collider_id = other;
-event_user(0);
+event_user(0); // this will determine what happens when the fly is caught
 
 // destory the collectable
 instance_destroy(id);

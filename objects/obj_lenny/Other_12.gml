@@ -20,8 +20,9 @@ if (keyboard_check_pressed(KeyJump)) {
 	// start jump in given direction
 	jump_movement = sign(horizontal_direction);
 	// inital upwards movmenet
-	vertical_movement = -JumpHeight;
-	current_state = Jumping;
+	bouncer(id, JumpHeight); // this changes vertical_movement and current_state.
+	//vertical_movement = -JumpHeight;
+	//current_state = Jumping;
 }
 #endregion
 

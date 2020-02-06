@@ -4,7 +4,8 @@
 if (!tongue_instance) {
 	tongue_max_extension = false;
 	tongue_distance = radius+2;
-	tongue_instance = instance_create_layer(x + (tongue_distance * player_direction), y, "Tongue", obj_tongue);
+	tongue_instance = instance_create_layer(x + (tongue_distance * player_direction), 
+											y, "Tongue", tongue_object);
 }
 // update the tongue direction based on player facing
 tongue_direction = player_direction;

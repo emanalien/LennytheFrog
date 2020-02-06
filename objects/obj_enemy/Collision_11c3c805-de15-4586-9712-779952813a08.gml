@@ -1,0 +1,1 @@
+/// @description Determines if this enemy takes damage from the tongue or not.

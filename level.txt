@@ -1,0 +1,6 @@
+To make a new level:
+- create a room child of the Section template 
+- place instances to build the level, ensuring placement in correct layer
+- place the next level object, near the end of the level
+- edit the instance of the gamemanager object, to reflect what the next level and start of section 
+- good to go!

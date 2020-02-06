@@ -19,3 +19,9 @@ x += horizontal_movement;
 
 // change sprite facing
 image_xscale = move_direction * -1;
+
+#region Health and death
+if (Health <= 0) {
+	instance_destroy(id);	
+}
+#endregion

@@ -25,7 +25,17 @@
             "m_owner": "c76ac190-37d6-4436-96b8-e3e5aca08d07"
         },
         {
-            "id": "f8b5847d-f04f-4420-881a-d2ab9fbf67eb",
+            "id": "11c3c805-de15-4586-9712-779952813a08",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "6d09792c-3783-4a1a-a3e6-8936e71aec47",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c76ac190-37d6-4436-96b8-e3e5aca08d07"
+        },
+        {
+            "id": "47eb384f-8138-41ca-828f-29544c2ced82",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -101,6 +111,20 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "Damage",
+            "varType": 0
+        },
+        {
+            "id": "c7ad7abf-e173-4cc1-9c3f-de3747a900e4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "Health",
             "varType": 0
         }
     ],

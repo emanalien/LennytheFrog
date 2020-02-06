@@ -7,6 +7,7 @@
 #macro Moving 2
 #macro Jumping 3
 #macro Licking 4
+#macro Pushed 5
 #endregion
 
 #region setup for state machine
@@ -28,11 +29,12 @@ drop_key = false;
 is_dropping = false;
 
 // jump settings
-jump_direction = 0;
+
 
 #endregion
 
 #region tongue settings
+tongue_object = obj_tongue;
 tongue_instance = 0;
 tongue_max_extension = false;
 currently_licking = false;
@@ -53,4 +55,10 @@ Camera.FollowRate = Camera.FollowDefault;
 
 #region gamemanger and score
 GM = instance_find(GameManager, 0);
+#endregion
+
+#region pushed (event 5) settings
+force_of_push = 0;
+diminish_rate = 0;
+push_direction = 0;
 #endregion

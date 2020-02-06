@@ -55,7 +55,7 @@ if (LennyLives < 0) {
 	// as the room's id
 	if (!instance_exists(obj_fade)) {
 		//instance_deactivate_layer("Player");
-		room_travel = "end";
+		room_travel = SectionStart;
 		with(instance_create_layer(x,y,"GameManager", obj_fade)) {
 			// setup of fade out variables
 			StartOpacity = -0.5;

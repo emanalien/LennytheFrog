@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1fd2a555-1ed5-40c8-8725-71697f3a42f2",
+            "Value": {
+                "id": "a25ff58f-b796-430c-b6ac-85c06328deb2",
+                "resourcePath": "views\\1fd2a555-1ed5-40c8-8725-71697f3a42f2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "254a3d2a-2424-4598-a95a-25d3da9da186",
             "Value": {
                 "id": "20454c40-0600-4f92-a1cd-9fbfe7a5423f",
@@ -219,6 +227,14 @@
             "Value": {
                 "id": "c9fddcad-6ed5-453c-93ba-eab3a3ac5c43",
                 "resourcePath": "rooms\\rm_pond1\\rm_pond1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "57ec5160-ef1a-4451-8a7e-f6f320d30f95",
+            "Value": {
+                "id": "713a1b05-61ed-4d01-8169-48312076cdc9",
+                "resourcePath": "rooms\\rm_pond2\\rm_pond2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -387,14 +403,6 @@
             "Value": {
                 "id": "83f959a1-2a79-43e0-b193-818889f7a4f1",
                 "resourcePath": "rooms\\rm_template\\rm_template.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "9bbaa883-0fee-4dc5-bb67-d25fc77135d4",
-            "Value": {
-                "id": "5b0080c3-03e0-47c6-b66b-f93c342a5813",
-                "resourcePath": "rooms\\rm_pond2\\rm_pond2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -631,6 +639,14 @@
             }
         },
         {
+            "Key": "d1266d59-61dd-4aff-8a5f-4e6e367afda5",
+            "Value": {
+                "id": "83ce97b6-b966-4066-b346-7c2aa46c972f",
+                "resourcePath": "scripts\\bouncer\\bouncer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d19a37b4-2b8b-4a90-acef-d1ef6174203f",
             "Value": {
                 "id": "83851507-a7f9-496d-af58-ced879aeefd4",
@@ -712,7 +728,7 @@
         }
     ],
     "script_order": [
-        
+        "d1266d59-61dd-4aff-8a5f-4e6e367afda5"
     ],
     "tutorial": ""
 }

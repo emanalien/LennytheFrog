@@ -1,5 +1,4 @@
-/// @description Reduce Player Health and destory this instance
-with (Collidee) {
-	Health -= other.Damage;	
+/// @description Called from Lenny
+if (Collidee.y < y) {
+	Health -= 1;	
 }
-instance_destroy(id);
