@@ -8,10 +8,11 @@
         "981763ef-847a-4c94-917b-879858925472",
         "1cdfa386-84e8-470e-9b6a-9c22d409d6b0",
         "91b06ea7-0341-47fd-8fb3-beff4f7c685d",
-        "1589a8b0-d3ca-4dae-9fdf-0a345d04db27"
+        "1589a8b0-d3ca-4dae-9fdf-0a345d04db27",
+        "eafba690-6e5e-447d-9a8d-16f47060a438"
     ],
     "filterType": "GMSprite",
-    "folderName": "Walls",
+    "folderName": "Obstacles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

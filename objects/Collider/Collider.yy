@@ -59,6 +59,20 @@
             "value": "0",
             "varName": "HasCollisionEvents",
             "varType": 3
+        },
+        {
+            "id": "50f2cdb5-f463-4642-a10d-93db240f1652",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "Solid",
+            "varType": 3
         }
     ],
     "solid": false,

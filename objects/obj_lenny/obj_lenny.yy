@@ -73,6 +73,16 @@
             "enumb": 15,
             "eventtype": 7,
             "m_owner": "9c101f5b-688e-4330-9267-d663fe7019a6"
+        },
+        {
+            "id": "24223bcb-383f-4418-9cd2-67253a7b9f42",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "9c101f5b-688e-4330-9267-d663fe7019a6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -258,6 +268,20 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "Health",
+            "varType": 0
+        },
+        {
+            "id": "5a1dd945-d74e-4712-bd71-29047563f8f1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "AcidTime",
             "varType": 0
         }
     ],

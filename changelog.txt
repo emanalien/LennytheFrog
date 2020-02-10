@@ -45,3 +45,9 @@
 - Worked on jumping and collisions with flies, bouncers
 - wrote bouncer script to be called when the player needs to be 'pushed' away from something, as well as for regular jumping
 - intergrated it into bouncy bushes.
+
+10/2/20: 1
+- Added acid flies, acid enemies
+- added spikes
+- fixed collisions for spikes so that only death if moving vertically towards them
+- changed the way enemy movement collision checkign works to check if still on a platform. Now works a lot better - removed from horizontal checks

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Find flies, lenny death, next room
 
 #region on first step event, look through all the flies and grab their unique id's
 if (first_step) {
@@ -39,6 +38,7 @@ if (lenny_dead) {
 		tics_elapsed = RespawnTime;
 	}
 	tics_elapsed -= 1;
+	// this is just to create a new lenny once the respawn time has passed
 	if (tics_elapsed <= 0) {
 		lenny_dead = false;
 		lenny_just_died = true;
@@ -48,6 +48,7 @@ if (lenny_dead) {
 #endregion
 
 #region check if lenny totally dead
+// If lenny is totally dead, we are going to transition to the start of the section
 if (LennyLives < 0) {
 	// create a fade object if it doesn't already exist
 	// the fade object will fade out the room, and then goto the room given in 
@@ -72,7 +73,7 @@ if (LennyLives < 0) {
 #endregion
 
 #region next room
-// this will have to be massivly changed in order to record total flies and everything
+// WIll it? this will have to be massivly changed in order to record total flies and everything
 if (next_room_active) {
 	// create the fade out object to take me to the next room
 	if (!instance_exists(obj_fade)) {

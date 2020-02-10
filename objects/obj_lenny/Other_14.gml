@@ -3,7 +3,7 @@
 // if not already instantiated, instantiate the tongue tip
 if (!tongue_instance) {
 	tongue_max_extension = false;
-	tongue_distance = radius+2;
+	tongue_distance = radius_w + 2;
 	tongue_instance = instance_create_layer(x + (tongue_distance * player_direction), 
 											y, "Tongue", tongue_object);
 }
@@ -17,7 +17,7 @@ if (tongue_distance >= TongueExtension) {
 
 #region update direction, check retracting and move tongue
 // reverse the tongue direction if retracting 
-if (tongue_distance < radius+2) {
+if (tongue_distance < radius_w + 2) {
 	instance_destroy(tongue_instance);
 	tongue_instance = 0;
 	currently_licking = false;

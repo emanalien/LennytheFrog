@@ -15,7 +15,8 @@ current_state = Moving;
 #endregion
 
 #region player settings
-radius = 32;
+radius_h = sprite_height/2;
+radius_w = sprite_width/2;
 #endregion
 
 #region movement settings
