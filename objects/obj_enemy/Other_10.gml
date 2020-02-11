@@ -1,2 +1,3 @@
 /// @description Called from Lenny
-Collidee.Health -= 1;
+// check if lenny is above
+Collidee.Health -= Damage;

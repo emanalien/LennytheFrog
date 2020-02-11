@@ -4,10 +4,10 @@
 #macro mCollider Collider
 
 // for state machine
-#macro Moving 2
-#macro Jumping 3
-#macro Licking 4
-#macro Pushed 5
+Moving = 2;
+Jumping = 3;
+Licking = 4;
+Pushed = 5;
 #endregion
 
 #region setup for state machine
@@ -23,13 +23,14 @@ radius_w = sprite_width/2;
 player_direction = 1; // direction player is facing, can't be 0
 horizontal_movement = 0;
 vertical_movement = 0;
-can_jump = true;
+//can_jump = true;
 can_dJump = true;
 drop_key = false;
 
-is_dropping = false;
+//is_dropping = false;
 
 // jump settings
+jump_movement = 0;
 
 
 #endregion

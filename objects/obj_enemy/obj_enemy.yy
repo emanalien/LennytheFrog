@@ -43,12 +43,32 @@
             "enumb": 10,
             "eventtype": 7,
             "m_owner": "c76ac190-37d6-4436-96b8-e3e5aca08d07"
+        },
+        {
+            "id": "3d4ad251-3f5d-4975-b19d-0f10d7b56bdd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 12,
+            "eventtype": 7,
+            "m_owner": "c76ac190-37d6-4436-96b8-e3e5aca08d07"
+        },
+        {
+            "id": "039bb2f2-ee83-43a2-a5f3-9a4e0f3860ef",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 13,
+            "eventtype": 7,
+            "m_owner": "c76ac190-37d6-4436-96b8-e3e5aca08d07"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "f53ae147-5baf-432d-a593-af7b64562122",
+            "id": "470c20ab-df33-4f77-a606-732dd1323a42",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "a7dff947-6371-442a-85b2-6f9e7d7135fd",
@@ -125,6 +145,20 @@
             "resourceFilter": 1023,
             "value": "2",
             "varName": "Health",
+            "varType": 0
+        },
+        {
+            "id": "82cff2d7-c383-4224-96ac-2e5e9f9248f2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "50",
+            "varName": "Bounce",
             "varType": 0
         }
     ],

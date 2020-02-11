@@ -51,3 +51,10 @@
 - added spikes
 - fixed collisions for spikes so that only death if moving vertically towards them
 - changed the way enemy movement collision checkign works to check if still on a platform. Now works a lot better - removed from horizontal checks
+
+11/2/20: 2
+- Added sprites for a few other objects
+- added spawner object, which creates enemies every x seconds, and moves them into position
+- updated enemy object, to allow for 'guidance' by a third party
+- fixed enemy lenny jump recognition and damage
+- added falling platform, can't figure out why it doesn't display onscreen

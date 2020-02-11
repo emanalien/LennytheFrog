@@ -140,7 +140,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "vk_space",
+            "value": "vk_up",
             "varName": "KeyJump",
             "varType": 4
         },

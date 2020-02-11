@@ -42,7 +42,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "rm_pond1",
+            "value": "rm_pond2",
             "varName": "start",
             "varType": 5
         }
