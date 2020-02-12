@@ -1,2 +1,3 @@
 /// @description start falling
-falling = true;
+touched = true;
+//falling = true;

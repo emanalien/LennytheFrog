@@ -1,8 +1,8 @@
 /// @description fade the sprite as we move
-if (falling) and false {
-	visible = false;
-	percent_fallen = (y - start_y) / (fall_distance);
-	draw_set_alpha(percent_fallen);
-	draw_sprite(sprite_index, 0, x, y);
-	draw_set_alpha(1);
+if (falling) {
+	percent_fallen = 1 - (y - start_y)/fall_distance;
+	//percent_fallen = 1;
+	draw_sprite_ext(sprite_index, 0, x, y, 1, 1, 0, c_white, percent_fallen);
+} else {
+	draw_sprite(sprite_index, 0, x, y);	
 }

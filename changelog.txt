@@ -58,3 +58,7 @@
 - updated enemy object, to allow for 'guidance' by a third party
 - fixed enemy lenny jump recognition and damage
 - added falling platform, can't figure out why it doesn't display onscreen
+
+12/2/20: 
+- Added templates for all current rooms, as well as correct data for links between rooms
+- fixed falling platform to wait, then fall and slowly dissapear
