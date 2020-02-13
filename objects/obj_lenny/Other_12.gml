@@ -10,9 +10,9 @@ if (horizontal_direction != 0) {
 #endregion
 
 #region move the player horizontally, but only if touching the ground
-if (place_meeting(x, y + 1, mCollider)) { // update this to only move when touching the ground??
+//if (place_meeting(x, y + 1, mCollider)) { // update this to only move when touching the ground??
 	horizontal_movement = horizontal_direction * Speed;
-}
+//}
 #endregion
 
 #region check for the pressing of jump, determine single or double jump, move player

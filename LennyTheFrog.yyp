@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "21077591-cbb5-4644-8d45-ea23b8b18d99",
+            "Value": {
+                "id": "02051dc2-ab22-462a-9b4e-141ddfc97e4e",
+                "resourcePath": "sprites\\spr_Endpoint\\spr_Endpoint.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2352c32a-05d1-46ec-994f-bdc2febc0b61",
             "Value": {
                 "id": "ad3d43d5-aab7-401a-a260-81a5d1d1f806",
@@ -316,6 +324,14 @@
                 "id": "23e3189a-4a05-47bf-bf61-7490d3babd9a",
                 "resourcePath": "rooms\\rm_caves10\\rm_caves10.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4cd92ca3-bd8d-4ba1-b72f-5d93cbfd1e51",
+            "Value": {
+                "id": "a175f0ff-d138-44dc-a621-6b8db08589fc",
+                "resourcePath": "objects\\obj_movingPlatform\\obj_movingPlatform.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -887,6 +903,14 @@
             }
         },
         {
+            "Key": "d1d91f34-d67f-484f-a298-5cc9ed5082b8",
+            "Value": {
+                "id": "7f0a5866-09e0-4386-8d1d-8d69bef086e2",
+                "resourcePath": "scripts\\magnitude\\magnitude.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d2427010-565a-41dd-bcf4-cac640df1784",
             "Value": {
                 "id": "24955ec3-8a43-40e4-bb52-11b8ac731deb",
@@ -919,11 +943,27 @@
             }
         },
         {
+            "Key": "da6355b9-82b2-4f3c-b798-87dd105bc6ec",
+            "Value": {
+                "id": "704c65cd-1e84-49e8-8b4f-30f1f5182c20",
+                "resourcePath": "rooms\\rm_pond21\\rm_pond21.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "dbcc16e1-95a6-4ef8-b808-fd6b897685bb",
             "Value": {
                 "id": "18cf2374-f2a0-4bd0-aee1-1fa9bc250f2a",
                 "resourcePath": "sprites\\spr_enemy01\\spr_enemy01.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e68ccbe0-bbaa-40ea-a0fb-c98fcf670d9c",
+            "Value": {
+                "id": "147fb616-0eb7-42c8-8949-6388f5452f2a",
+                "resourcePath": "objects\\obj_mPEndpoint\\obj_mPEndpoint.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1000,7 +1040,8 @@
         }
     ],
     "script_order": [
-        "d1266d59-61dd-4aff-8a5f-4e6e367afda5"
+        "d1266d59-61dd-4aff-8a5f-4e6e367afda5",
+        "d1d91f34-d67f-484f-a298-5cc9ed5082b8"
     ],
     "tutorial": ""
 }

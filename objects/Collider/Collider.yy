@@ -71,7 +71,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "True",
-            "varName": "Solid",
+            "varName": "is_solid",
             "varType": 3
         }
     ],

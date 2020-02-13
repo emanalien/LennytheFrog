@@ -12,10 +12,10 @@ if (horizontal_movement != 0) {
 	image_xscale = sign(horizontal_movement);
 }
 #region collisions
-// horizontal collisions
-if (place_meeting(x + horizontal_movement, y, mCollider)) {
-	// create a reference to the collider
-	var otherCollider = instance_place(x + horizontal_movement, y, mCollider);
+// horizontal collisions	
+// create a reference to the collider
+var otherCollider = instance_place(x + horizontal_movement, y, mCollider);
+if (otherCollider) and (otherCollider.is_solid) {
 	// incrementally move the player until just next to collider
 	while (!place_meeting(x + sign(horizontal_movement), y, mCollider)) {
 		x += sign(horizontal_movement);
@@ -37,8 +37,8 @@ if (place_meeting(x + horizontal_movement, y, mCollider)) {
 }
 x += horizontal_movement;
 // vertical collisions
-if (place_meeting(x, y + vertical_movement, mCollider)) {
-	var otherCollider = instance_place(x, y + vertical_movement, mCollider);
+var otherCollider = instance_place(x, y + vertical_movement, mCollider);
+if (otherCollider) and (otherCollider.is_solid) {
 	// reset jumping
 	//is_dropping = false;
 	
@@ -61,9 +61,9 @@ y += vertical_movement;
 
 // gravity movement
 #region gravity
-vertical_movement += GameManager.Gravity;
-if (vertical_movement > TerminalV) {
-	vertical_movement = TerminalV;	
+vertical_movement += GM.Gravity;
+if (vertical_movement > GM.TerminalV) {
+	vertical_movement = GM.TerminalV;	
 }
 #endregion
 

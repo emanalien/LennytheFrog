@@ -59,6 +59,12 @@
 - fixed enemy lenny jump recognition and damage
 - added falling platform, can't figure out why it doesn't display onscreen
 
-12/2/20: 
+12/2/20: 1
 - Added templates for all current rooms, as well as correct data for links between rooms
 - fixed falling platform to wait, then fall and slowly dissapear
+
+13/2/20: 2
+- Added moving platforms, with separate endpoint object to set where the platform stops and starts
+- Made 3 test rooms, pond1, pond2, pond21, to demonstrate all of the objects that exist at this stage
+- changed falling platform to stop being solid once starting to fall
+- Changed Lenny movement, so air horizontal movement is allowed.
