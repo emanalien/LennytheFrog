@@ -22,7 +22,9 @@ lenny_just_died = true;
 #endregion
 
 #region Camera Information
-Camera = instance_find(obj_camera, 0);
+// holds the camera object, but not the room camera object itself
+// that is stored in view_camera[0]
+Camera = instance_create_layer(x,y,"Player", obj_camera);
 #endregion
 
 #region Fly Information
@@ -46,4 +48,10 @@ fade_out_finished = false;
 room_travel = SectionStart;
 
 next_room_active = false;
+#endregion
+
+#region pause settings
+paused = false;
+screenShot = 0;
+pauseMenu = -1;
 #endregion

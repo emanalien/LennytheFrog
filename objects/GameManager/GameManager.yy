@@ -159,6 +159,20 @@
             "value": "rm_pond2",
             "varName": "NextRoom",
             "varType": 5
+        },
+        {
+            "id": "aeaecfeb-deb5-4721-b34a-b52f160d9555",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ord(\"P\")",
+            "varName": "KeyPause",
+            "varType": 4
         }
     ],
     "solid": false,

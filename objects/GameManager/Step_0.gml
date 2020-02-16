@@ -1,5 +1,37 @@
 /// @description Find flies, lenny death, next room
 
+#region frame variables for cgv_x and y (camera_get_view)
+cgv_x = camera_get_view_x(view_camera[0]);
+cgv_y = camera_get_view_y(view_camera[0]);
+#endregion
+
+#region check for pause
+if (keyboard_check_pressed(KeyPause)) {
+	paused = !paused;
+	if (paused) {
+		// takes a screen shot of the application surface (which is what is drawn to the screen
+		// and saves it to be redrawn on the pause.
+		screenShot = sprite_create_from_surface(application_surface, 
+			cgv_x, cgv_y, Camera.res_width, Camera.res_height, 0, 0, 0, 0);	
+		
+		// deactivate all objects
+		instance_deactivate_all(true);
+		// create the pause menu object at the center of the screen, at the top
+		pauseMenu = instance_create_layer(cgv_x + Camera.view_width/2,
+											cgv_y
+											,"UI", obj_pauseMenu);
+		pauseMenu.camera = Camera;
+		instance_activate_object(pauseMenu);
+	} else {
+		// restore the game back to functioning form
+		instance_destroy(pauseMenu);
+		instance_activate_all();
+		sprite_delete(screenShot);
+	}
+
+}
+#endregion
+
 #region on first step event, look through all the flies and grab their unique id's
 if (first_step) {
 	first_step = false;
@@ -25,7 +57,6 @@ if (keyboard_check_pressed(ord("H"))) {
 	instance_create_layer(x,y,"GameManager", obj_fade);
 }
 #endregion
-
 
 #region Lenny Death
 // check if lenny is dead

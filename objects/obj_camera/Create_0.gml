@@ -14,6 +14,7 @@ r_height = room_height;
 r_width = room_width;
 
 camera_following = true;
+#endregion
 
 #region position setup
 //x = ObjectFollowing.x;
@@ -34,9 +35,10 @@ window_set_rectangle((display_get_width() - view_wport[0]) * 0.5,
 surface_resize(application_surface, view_wport[0], view_hport[0]);
 			
 // create the camera, top left pos x, y, width, height, angle, object following, xspeed, yspeed
-camera = camera_create_view(x - view_width/2,y - view_height/2,view_width, view_height,
-									0, -1, -1, -1);
-									
+//camera = camera_create_view(x - view_width/2,y - view_height/2,view_width, view_height,
+//									0, -1, -1, -1);
+camera = camera_create_view(0,0,view_width, view_height,
+									0, -1, -1, -1);								
 // set view0 to use camera
 view_set_camera(0, camera);
 // changes the viewport
