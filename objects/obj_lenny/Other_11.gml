@@ -7,10 +7,21 @@ if (drop_key) {
 	horizontal_movement = 0;
 }
 
+
 // change sprite facing
 if (horizontal_movement != 0) {
 	image_xscale = sign(horizontal_movement);
 }
+
+#region if on moving platform
+if (on_platform) {
+	x += horizontal_movement_carry;
+	y += vertical_movement_carry;
+	horizontal_movement_carry = 0;
+	vertical_movement_carry = 0;
+}
+#endregion
+
 #region collisions
 // horizontal collisions	
 // create a reference to the collider
@@ -36,6 +47,8 @@ if (otherCollider) and (otherCollider.is_solid) {
 	}
 }
 x += horizontal_movement;
+
+
 // vertical collisions
 var otherCollider = instance_place(x, y + vertical_movement, mCollider);
 if (otherCollider) and (otherCollider.is_solid) {

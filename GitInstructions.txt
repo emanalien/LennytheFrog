@@ -1,0 +1,7 @@
+To grab the changes from the base folder:
+git pull origin master
+
+To add changes from your folder:
+git add .
+git commit -m "your message"
+git push -u origin master

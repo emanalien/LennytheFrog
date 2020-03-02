@@ -51,8 +51,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
-            "varName": "BounceHeight",
+            "value": "10",
+            "varName": "BounceHeightHor",
+            "varType": 0
+        },
+        {
+            "id": "680276a5-8966-4d60-be9c-44d33ace153e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "50",
+            "varName": "BounceHeightVert",
             "varType": 0
         }
     ],

@@ -42,6 +42,9 @@ tongue_max_extension = false;
 currently_licking = false;
 tongue_direction = 0;
 tongue_distance = 0;
+
+// moving platforms
+on_platform = false;
 #endregion
 
 #region gamemanger and score

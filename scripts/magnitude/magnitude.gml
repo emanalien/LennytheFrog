@@ -1,4 +1,4 @@
 /// @desc finds the magnitude of a vector between two points
-/// @arg x
-/// @arg y
-return sqrt(sqr(x) + sqr(y));
+/// @args x
+/// @args y
+return sqrt(sqr(argument0) + sqr(argument1));

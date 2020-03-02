@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00397df9-765c-401e-a5c1-9424247eddcf",
+            "Value": {
+                "id": "0fb9fc00-8f83-416f-9ea5-b358d7351c8c",
+                "resourcePath": "scripts\\distance_to_stop\\distance_to_stop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "01aadebd-ac72-4a2b-b32f-a651964926a3",
             "Value": {
                 "id": "ce03d206-7031-42fb-bd92-fdfecd3d1b29",
@@ -1065,7 +1073,8 @@
     ],
     "script_order": [
         "d1266d59-61dd-4aff-8a5f-4e6e367afda5",
-        "d1d91f34-d67f-484f-a298-5cc9ed5082b8"
+        "d1d91f34-d67f-484f-a298-5cc9ed5082b8",
+        "00397df9-765c-401e-a5c1-9424247eddcf"
     ],
     "tutorial": ""
 }

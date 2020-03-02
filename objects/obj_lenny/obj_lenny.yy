@@ -112,7 +112,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "vk_left",
+            "value": "ord(\"A\")",
             "varName": "KeyLeft",
             "varType": 4
         },
@@ -126,9 +126,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "vk_right",
+            "value": "ord(\"D\")",
             "varName": "KeyRight",
-            "varType": 0
+            "varType": 4
         },
         {
             "id": "7709b3f6-ac73-40e3-862e-3b8b095e0096",

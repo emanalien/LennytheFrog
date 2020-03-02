@@ -10,7 +10,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 2,
             "eventtype": 3,
             "m_owner": "4cd92ca3-bd8d-4ba1-b72f-5d93cbfd1e51"
         },
@@ -25,7 +25,7 @@
             "m_owner": "4cd92ca3-bd8d-4ba1-b72f-5d93cbfd1e51"
         },
         {
-            "id": "58d6311d-7b75-4b56-b999-639bea18255c",
+            "id": "7e52b4f9-bb75-482a-b8c8-876669fcbb56",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -90,7 +90,7 @@
             "varType": 0
         },
         {
-            "id": "2ef8cf7b-d456-48fc-8ef3-2f2f822332e7",
+            "id": "203f76be-fd90-4c56-9b7d-13b573d43707",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -99,22 +99,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.1",
-            "varName": "Lerp",
-            "varType": 0
-        },
-        {
-            "id": "28dd2953-7e78-424d-9743-4a09645779cf",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "2",
-            "varName": "Error",
+            "value": "1",
+            "varName": "Acceleration",
             "varType": 0
         }
     ],
